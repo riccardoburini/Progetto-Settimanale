@@ -1,0 +1,87 @@
+/* Your styles here */
+header {
+  background-color: black;
+  padding: 1em;
+}
+body {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+}
+button {
+  padding: 1em;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+  border: tomato;
+  border-radius: 6%;
+  width: 35%;
+  margin-top: 2em;
+}
+h1 {
+  padding: 1em;
+  color: #23a9cc;
+  font-size: 50px;
+  font-weight: bold;
+}
+.brizio {
+  background-image: url(../images/banner.jpg);
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2em;
+}
+.brizio p {
+  font-size: 25px;
+  line-height: 2rem;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.roxy img {
+  border-radius: 50%;
+  height: 330px;
+  padding: 2em;
+}
+.roxy h3 {
+  color: #23a9cc;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 1.3em;
+}
+.roxy p {
+  font-size: 25px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.picchio {
+  background-color: red;
+  color: white;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  height: 300px;
+}
+.picchio h3 {
+  font-size: 35px;
+  padding-top: 1.5em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.picchio p {
+  margin-bottom: 2em;
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+.picchio h4 {
+  font-size: 20px;
+}
+.picchio h5 {
+  font-size: 15px;
+}
+.mesk {
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+}
+.mesk img {
+  height: 265px;
+}
