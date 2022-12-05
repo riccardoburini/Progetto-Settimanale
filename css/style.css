@@ -5,26 +5,31 @@ header {
 }
 body {
   font-weight: normal;
-  font-size: medium;
+  font-size: 1.2rem;
   text-align: center;
   font-family: Open Sans, sans-serif;
+  line-height: 1.65;
+  color: #393d41;
 }
 button {
   padding: 1em;
   font-weight: bold;
-  background-color: tomato;
+  background-color: #f04c2f;
   color: white;
-  border: tomato;
+  border: #f04c2f;
   border-radius: 6%;
   width: 35%;
   margin-top: 2em;
 }
 h1 {
-  padding: 1em;
+  padding-top: 1.5em;
   color: #23a9cc;
   font-size: 50px;
   font-weight: bold;
+  font-family: montserrat;
+  line-height: 1;
 }
+
 .brizio {
   background-image: url(../images/banner.jpg);
   height: 470px;
@@ -34,9 +39,9 @@ h1 {
 }
 .brizio p {
   font-size: 25px;
-  line-height: 2rem;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  margin-top: 0.5em;
 }
 .roxy img {
   border-radius: 50%;
@@ -47,15 +52,15 @@ h1 {
   color: #23a9cc;
   font-weight: bold;
   font-size: 25px;
-  padding: 1.3em;
+  padding: 0.5em;
+  font-family: montserrat;
 }
 .roxy p {
-  font-size: 25px;
   margin-left: 2em;
   margin-right: 2em;
 }
 .picchio {
-  background-color: red;
+  background-color: #e22d0e;
   color: white;
   margin-top: 5em;
   margin-bottom: 5em;
@@ -63,14 +68,12 @@ h1 {
 }
 .picchio h3 {
   font-size: 35px;
-  padding-top: 1.5em;
+  padding-top: 1em;
   font-weight: bold;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 .picchio p {
-  margin-bottom: 2em;
-  font-size: 20px;
-  line-height: 1.5rem;
+  margin-bottom: 1.5em;
 }
 .picchio h4 {
   font-size: 20px;
@@ -83,5 +86,61 @@ h1 {
   margin-left: 1.5em;
 }
 .mesk img {
-  height: 265px;
+  width: 100%;
+}
+.iltuopc {
+  border-style: solid;
+  border-color: #dee1e3;
+  border-width: 1px;
+  border-radius: 1%;
+  margin-bottom: 2em;
+}
+.mesk h4 {
+  color: #23a9cc;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.mesk p {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+.imparaora {
+  border-style: solid;
+  border-color: #dee1e3;
+  border-width: 1px;
+  border-radius: 1%;
+  margin-bottom: 2em;
+}
+.lavorasubito {
+  border-style: solid;
+  border-color: #dee1e3;
+  border-width: 1px;
+  border-radius: 1%;
+  margin-bottom: 2em;
+}
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+}
+footer h3 {
+  color: white;
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+  font-family: montserrat;
+  font-size: 30px;
+  font-weight: bold;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer p {
+  padding-bottom: 3em;
+}
+footer hr {
+  margin-right: 6em;
+  margin-left: 6em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
